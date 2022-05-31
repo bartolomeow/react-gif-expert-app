@@ -4,12 +4,6 @@ import { GifGridItem } from './GifGridItem';
 
 export const GifGrid = ({category}) => {
     
-/* 
-    useEffect( () => {
-        getGifs(category)
-        .then( imgs => setImages( imgs ));
-    }, [ category ]);*/
-
     const { data: images, loading } = useFetchGifs( category );
 
   return (
