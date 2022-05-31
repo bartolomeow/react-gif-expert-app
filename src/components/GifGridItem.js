@@ -12,7 +12,7 @@ export const GifGridItem = ( props ) => {
 };
 
 GifGridItem.propTypes = {
-  title: PropTypes.func.isRequired,
-  url: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
 }
 
